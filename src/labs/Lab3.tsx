@@ -5,11 +5,24 @@ function Lab3() {
     console.log(data);
   };
   return (
-    <Form onFinish={onFinish}>
-      <Form.Item label="Title" name="title">
+    <Form onFinish={onFinish} layout="vertical">
+      <Form.Item
+        label="Title"
+        name="title"
+        rules={[
+          { required: true, message: "hay nhap title" },
+          {
+            min: 5,
+          },
+        ]}
+      >
         <Input />
       </Form.Item>
-      <Form.Item label="Price" name="price">
+      <Form.Item
+        label="Price"
+        name="price"
+        rules={[{ required: true }, { min: 0, type: "number" }]}
+      >
         <InputNumber />
         {/* Select */}
         {/* Checkbox */}
