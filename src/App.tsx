@@ -1,9 +1,10 @@
 import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
 import Lab3 from "./labs/Lab3";
-import Bai1L3 from "./labs/bai1L3";
-import Bai2L3 from "./labs/Bai2L3";
-import Bai3L3 from "./labs/Bai3L3";
+import Bai1L3 from "./lap3/Bai1L3";
+import Bai2L3 from "./lap3/Bai2L3";
+import Bai3L3 from "./lap3/Bai3L3";
+import Bai4L3 from "./lap3/Bai4L3";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Bai1L3 />
         <Bai2L3 />
         <Bai3L3 />
+        <Bai4L3/>
       </div>
 
       <Toaster />
