@@ -7,6 +7,7 @@ import Bai2L3 from "./lap3/Bai2L3";
 import Bai3L3 from "./lap3/Bai3L3";
 import Bai4L3 from "./lap3/Bai4L3";
 import Lap2 from "./lap2/Lap2";
+import Lap1 from "./lap1/Lap1";
 
 
 
@@ -51,7 +52,8 @@ function App() {
         <Bai4L3/> */}
         {/* <Lab3 /> */}
         {/* <Lab4 /> */}
-        <Lap2/>
+        {/* <Lap2/> */}
+          <Lap1/>
       </div>
 
       <Toaster />
