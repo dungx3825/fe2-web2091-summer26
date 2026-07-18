@@ -1,13 +1,6 @@
 import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
-import Lab3 from "./labs/Lab3";
-import Lab4 from "./labs/Lap4";
-import Bai1L3 from "./lap3/Bai1L3";
-import Bai2L3 from "./lap3/Bai2L3";
-import Bai3L3 from "./lap3/Bai3L3";
-import Bai4L3 from "./lap3/Bai4L3";
-import Lap2 from "./lap2/Lap2";
-import Lap1 from "./lap1/Lap1";
+
 
 
 
@@ -46,14 +39,7 @@ function App() {
       {/* MAIN CONTENT */}
       <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
         <h1 className="text-4xl font-bold mb-4">Chào mừng đến với WEB2091</h1>
-        {/* <Bai1L3 />
-        <Bai2L3 />
-        <Bai3L3 />
-        <Bai4L3/> */}
-        {/* <Lab3 /> */}
-        {/* <Lab4 /> */}
-        {/* <Lap2/> */}
-          <Lap1/>
+        
       </div>
 
       <Toaster />

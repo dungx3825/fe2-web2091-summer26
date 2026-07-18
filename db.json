@@ -1,16 +1,32 @@
 {
     "stories": [
     {
-      "id": 1,
       "title": "Harry Potter Và Hòn Đá Phù Thủy",
       "author": "J. K. Rowling",
-      "cover": "https://picsum.photos/300/450?random=1"
+      "cover": "https://picsum.photos/300/450?random=1",
+      "description": "Harry Potter là một cậu bé mồ côi sống với gia đình Dursley, những người ghét bỏ cậu. Vào ngày sinh nhật thứ 11, Harry nhận được một bức thư từ Trường Phù Thủy Hogwarts, nơi cậu được mời học phép thuật. Tại Hogwarts, Harry kết bạn với Ron Weasley và Hermione Granger, và cùng nhau họ khám phá ra bí mật về quá khứ của Harry và đối mặt với kẻ thù nguy hiểm, Lord Voldemort."
+    },
+    {
+      "title": "Conan Tập 1",
+      "author": "Gosho Aoyama",
+      "cover": "https://picsum.photos/300/450?random=2",
+      "description": "Câu chuyện xoay quanh cậu bé thám tử Shinichi Kudo, người bị biến thành một đứa trẻ sau khi bị đầu độc bởi một tổ chức tội phạm. Dưới cái tên Conan Edogawa, cậu tiếp tục giải quyết các vụ án và tìm cách lấy lại hình dạng ban đầu của mình."  
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Hành động",
+      "description": "Truyện hành động",
+      "active": true
     },
     {
       "id": 2,
-      "title": "Conan Tập 1",
-      "author": "Gosho Aoyama",
-      "cover": "https://picsum.photos/300/450?random=2"
+      "title": "Phiêu lưu",
+      "description": "Truyện phiêu lưu",
+      "active": true
     }
   ]
+
 }
+  
